@@ -1,5 +1,9 @@
 var drops = [];
 
+function windowResized(){
+  resizeCanvas(windowWidth,windowHeight);
+}
+
 function setup() {
   createCanvas(windowWidth, windowHeight);
   for (var i = 0; i < 500; i++) {
